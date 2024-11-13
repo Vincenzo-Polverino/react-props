@@ -10,7 +10,7 @@ export default function AppMain() {
                 {posts.map(post =>
                     <PostCard key={post.id}
                         title={post.title}
-                        imgage={post.imgage}
+                        image={post.image}
                         content={post.content}
                     />)}
 
