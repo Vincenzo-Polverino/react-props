@@ -8,10 +8,12 @@ export default function AppMain() {
 
             <div className="container">
                 {posts.map(post =>
+                    post.published &&
                     <PostCard key={post.id}
                         title={post.title}
                         image={post.image}
                         content={post.content}
+                        tags={post.tags}
                     />)}
 
             </div>
