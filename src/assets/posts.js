@@ -36,3 +36,4 @@ export const posts = [
         published: false,
     },
 ];
+export default posts;
