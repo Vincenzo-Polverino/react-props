@@ -1,0 +1,12 @@
+.btn {
+    background-color: chocolate;
+    color: whitesmoke;
+    padding: 1rem;
+    border: 0;
+    margin: 1rem;
+
+    &:hover {
+        background-color: #444;
+    }
+
+}

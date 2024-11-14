@@ -38,6 +38,7 @@ footer {
 .postCard {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   max-width: 50%;
   margin: auto;
   border: 2px, #000;

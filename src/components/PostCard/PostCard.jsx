@@ -1,3 +1,5 @@
+import Button from "../Button/Button.jsx";
+
 export default function PostCard(props) {
 
     return (
@@ -15,6 +17,8 @@ export default function PostCard(props) {
                 {props.content}
 
             </p>
+
+            <div><Button /></div>
 
             <h5>{props.tags}</h5>
 
